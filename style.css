@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+h1 {
+    font-size: 1.4em;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container, .ingres, header, .img-container, .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+}
+
+.ingres h2, p {
+    margin: 5px;
+}
+
+body {
+    background-color: #ffefb8;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Media queries*/
+
+@media only screen and (min-width: 500px) {
+    
+    body {
+        background-color: #d7e5f4;
+    }
+
+    input {
+        margin: 3px;
+    }
+
+    #form {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .radio-container {
+        margin: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+    
+    body {
+        background-color: #f2ffe3;
+    }
+
+    input {
+        margin: 1px;
+    }
+
+    #form {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        margin-top: 10px;
+    }
+
+    #result p {
+        margin-bottom: 40px;
+    }
+
+    .questions {
+        display: flex;
+        flex-wrap: wrap;
+        width: 800px;
+    }
+
+    .game {
+        max-width: 50%;
+    }
+}

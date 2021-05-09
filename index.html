@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frida Stenberg</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Guess The Person, Who Is Who?</h1>
+    </header>
+    <div class="container">
+        <!--about-->
+        <div class="ingres">
+            <p>Choose a name for each photo, when finished click the button to reveal score!</p>
+        </div>
+        <!--formulär för spel-->
+        <form id="form">
+            <div class="questions"></div>
+            <div class="button">
+                <button type="submit">Check answers</button>
+            </div>
+        </form>
+         <!-- Score-->
+        <div id="result">
+            <p>You got <span id="score">0</span> correct students of <span id='images'>0</span> photos!</p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
